@@ -1,9 +1,9 @@
 <div class="w-screen h-screen flex align-middle screen overflow-hidden">
-    <slot></slot>
+	<slot />
 </div>
 
 <style>
 	.screen {
-		background-color: #0E9B00;
+		background-color: #0e9b00;
 	}
 </style>

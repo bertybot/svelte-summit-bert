@@ -1,7 +1,7 @@
 <script>
 	import SvelteFlyIn from './SvelteFlyIn.svelte';
-    import RandomDots from './randomDots.svelte';
-	
+	import RandomDots from './randomDots.svelte';
+
 	export let number = 1;
 	export let title = 'FROM HUMBLE BEGINNINGS';
 </script>
@@ -10,17 +10,17 @@
 	<p class="number absolute z-50 left-11 md:left-48 stroke-black font-extrabold">{number}</p>
 	<SvelteFlyIn />
 	<p class="title w-72 relative left-1/3 line font-bold">{title}</p>
-    <RandomDots></RandomDots>
+	<RandomDots />
 </div>
 
 <style>
-    .title {
-        font-size: 9rem;
-        line-height: 1.2;
-    }
+	.title {
+		font-size: 9rem;
+		line-height: 1.2;
+	}
 	.number {
 		font-size: 300px;
-        line-height: 1;
+		line-height: 1;
 	}
 
 	.title-card {

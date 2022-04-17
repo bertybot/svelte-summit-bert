@@ -1,6 +1,6 @@
 <script>
-    export let number = 2;
-    export let title = 'OUR CODEBASE TODAY'
+	export let number = 2;
+	export let title = 'OUR CODEBASE TODAY';
 	import TitleCard from '$lib/TitleCard/TitleCard.svelte';
 </script>
 

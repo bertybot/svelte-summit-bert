@@ -1,22 +1,22 @@
 <script>
 	//only works in firefox
 	//Svelte conversion of this https://github.com/kevin-powell/seamless-can-i-clone-it
-	
+
 	import Circle from './Circle.svelte';
 	import GreenScreen from '$lib/GreenScreen.svelte';
 	import { tweened } from 'svelte/motion';
 	import logos from './logos';
-import { onDestroy, onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	const images = logos;
 	let speed = 5;
 	let interval;
 
 	onMount(() => {
-		setInterval(() => speed = speed === 1 ? 1 : speed -= 1, 1000);
-	})
+		setInterval(() => (speed = speed === 1 ? 1 : (speed -= 1)), 1000);
+	});
 	onDestroy(() => {
-		clearInterval(interval)
-	})
+		clearInterval(interval);
+	});
 </script>
 
 <GreenScreen>

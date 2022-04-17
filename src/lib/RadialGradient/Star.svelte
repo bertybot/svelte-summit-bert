@@ -1,17 +1,16 @@
 <script>
-  export let color = '#003C7B'
+	export let color = '#003C7B';
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
-	>
-    <defs>
-        <radialGradient id="Gradient"
-              cx="0.5" cy="0.5" r="0.5" fx="0.25" fy="0.25">
-          <stop offset="0%" stop-color="white"/>
-          <stop offset="100%" stop-color="{color}"/>
-        </radialGradient>
-    </defs>
-    <path fill="url(#Gradient)"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<defs>
+		<radialGradient id="Gradient" cx="0.5" cy="0.5" r="0.5" fx="0.25" fy="0.25">
+			<stop offset="0%" stop-color="white" />
+			<stop offset="100%" stop-color={color} />
+		</radialGradient>
+	</defs>
+	<path
+		fill="url(#Gradient)"
 		d="M18.75,25.11-2.13,1.39,30,10.81,22.16-2.92l25.76-.65L51.33,10,65.54-4.71l8.29,7.48L84.55-4.71s10.81-1.46,10.73,0S91.54,8.21,91.54,8.21l22.5-4L92.19,34.53s32,15.19,30.79,15.11-39.56,5.52-39.56,5.52,26.4,28.11,26.64,28.27S79.19,72.55,79.19,72.55L104.62,97l.73,10.89-32.25-18L68.71,109.1l-13.08-21s-12.34,16.09-12.91,16.66-2.28-20.07-1.95-19.26-25.19,22.26-25.19,22.26l8.21-27L-5.62,100.57,11.85,65-17.8,76.2,14.37,42.25l-32.17,5s38-14.78,37.53-14.94S-11,27-11,27Z"
 	/></svg
 >

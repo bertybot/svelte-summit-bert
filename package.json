@@ -1,6 +1,6 @@
 {
 	"name": "svelte-summit-bert",
-	"private":"true",
+	"private": "true",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",

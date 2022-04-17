@@ -1,5 +1,5 @@
 <script>
-    import Logo from '$lib/TitleCard/svelte.webp'
+	import Logo from '$lib/TitleCard/svelte.webp';
 	const maxY = 1600;
 	const stepY = 100;
 	const maxX = 20;
@@ -38,25 +38,26 @@
 				{text}
 			</div>
 		{/each}
-        <div style:grid-row-start="{rows}" class="bar absolute rotate-45 left-0 h-full w-96 bg-red-500"><img class=" w-24" alt="test" src={Logo}></div>
+		<div style:grid-row-start={rows} class="bar absolute rotate-45 left-0 h-full w-96 bg-red-500">
+			<img class=" w-24" alt="test" src={Logo} />
+		</div>
 	</div>
-    
 </div>
 
 <style>
-    @keyframes scale {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 1000px;
-    }
-}
+	@keyframes scale {
+		0% {
+			width: 0px;
+		}
+		100% {
+			width: 1000px;
+		}
+	}
 
-    .bar{
-        --tw-rotate: 135deg;
-        width: 1000px;
-        bottom: 400px;
-        animation: scale 4000ms 1;
-    }
+	.bar {
+		--tw-rotate: 135deg;
+		width: 1000px;
+		bottom: 400px;
+		animation: scale 4000ms 1;
+	}
 </style>

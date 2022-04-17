@@ -1,7 +1,7 @@
 <script>
-    import RadialGradient from "$lib/RadialGradient/RadialGradient.svelte";
+	import RadialGradient from '$lib/RadialGradient/RadialGradient.svelte';
 </script>
 
 <a href="./Grid">
-<RadialGradient></RadialGradient>
+	<RadialGradient />
 </a>

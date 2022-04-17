@@ -1,5 +1,5 @@
 <script>
-    export let color = '';
+	export let color = '';
 </script>
 
-<div class="w-full {color} h-8"></div>
+<div class="w-full {color} h-8" />
