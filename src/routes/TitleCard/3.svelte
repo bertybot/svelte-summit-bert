@@ -4,6 +4,6 @@
 	import TitleCard from '$lib/TitleCard/TitleCard.svelte';
 </script>
 
-<a href="/Radial/green">
+<a href="/TitleCard/4">
 	<TitleCard {number} {title} />
 </a>

@@ -1,6 +1,6 @@
-# create-svelte
+# SVELTE SUMMIT SPRING 2022
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Some of the quick transitions I made in Svelte for my Svelte Summit Spring Video Loosley based on the adventures of a porus sea animal! I coded this pretty quickly so expect bugs!
 
 ## Creating a project
 
