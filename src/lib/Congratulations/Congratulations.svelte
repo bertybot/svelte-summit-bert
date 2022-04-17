@@ -2,6 +2,7 @@
 	import { fly } from 'svelte/transition';
 	import ColorBar from './ColorBar.svelte';
 	import Ballons from './Ballons.svelte';
+	import GreenScreen from '$lib/GreenScreen.svelte';
 	const colors = [
 		'bg-red-500',
 		'bg-orange-500',
@@ -13,7 +14,7 @@
 	];
 </script>
 
-<div class="w-screen h-screen flex align-middle title-card overflow-hidden">
+<GreenScreen>
 	<div
 		transition:fly={{ delay: 0, duration: 1200, x: -1200, y: 0, opacity: 0.5 }}
 		class="inline-flex w-screen items-center pt-10"
@@ -26,12 +27,9 @@
 		</div>
 	</div>
 	<Ballons {colors} />
-</div>
+</GreenScreen>
 
 <style>
-	.title-card {
-		background-color: #0E9B00;
-	}
 	p {
 		-webkit-text-stroke: 5px black;
 	}

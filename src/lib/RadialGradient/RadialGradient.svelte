@@ -5,6 +5,7 @@
 </script>
 
 <div style:background={`radial-gradient(white, ${color})`} class="w-screen radial-gradient h-screen flex items-center justify-center">
+	<slot></slot>
 	<div class="absolute animate-star-1 top-0 left-0 h-full w-full">
 		<Star />
 	</div>

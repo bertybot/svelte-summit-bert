@@ -10,7 +10,7 @@
 		let array = [];
 		for (let i = 0; i <= maxY; i += stepY) {
 			array.push({ text: maxY - i, border: 'border-r-2 border-red-700' });
-			for (let j = 0; j <= maxX; j += stepX) {
+			for (let j = 0; i <= maxX; j += stepX) {
 				if (i === maxY) {
 					array.push({ text: j, border: 'border-t-2 border-red-700' });
 				} else {
